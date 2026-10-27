@@ -1,0 +1,82 @@
+local_id,sector,consumo_kwh_mes,area_m2,consumo_ineficiente
+L001,Zaragoza,224,190,0
+L002,Guadalupe,308,133,0
+L003,Santa Ana,302,163,0
+L004,El Prado,791,187,0
+L005,Guadalupe,633,125,1
+L006,Zaragoza,1199,136,1
+L007,Guadalupe,672,85,0
+L008,Centro,329,214,0
+L009,Zaragoza,197,133,0
+L010,Santa Ana,895,150,1
+L011,Centro,663,157,1
+L012,El Prado,795,194,0
+L013,Guadalupe,452,208,0
+L014,Centro,306,83,0
+L015,El Prado,443,94,1
+L016,Santa Ana,912,64,1
+L017,El Prado,1013,282,0
+L018,Centro,989,139,1
+L019,Guadalupe,369,238,0
+L020,Centro,1104,254,0
+L021,Santa Ana,1049,222,1
+L022,Zaragoza,343,21,1
+L023,Santa Ana,1181,224,1
+L024,Zaragoza,947,198,1
+L025,Zaragoza,366,174,0
+L026,Santa Ana,247,248,0
+L027,Zaragoza,665,75,1
+L028,Zaragoza,828,169,0
+L029,El Prado,677,172,1
+L030,GUADALUPE,1181,71,1
+L031,ZARAGOZA,910,52,1
+L032,El Prado,318,133,0
+L033,Centro,1001,250,1
+L034,Santa Ana,812,64,1
+L035,Zaragoza,540,189,0
+L036,Guadalupe,1200,184,1
+L037,El Prado,1011,46,1
+L038,Zaragoza,1185,102,1
+L039,Guadalupe,1173,103,1
+L040,Santa Ana ,502,123,0
+L041,El Prado,295,198,0
+L042,Santa Ana,476,120,0
+L043,Santa Ana,288,104,0
+L044,El Prado,576,37,1
+L045,Zaragoza,981,292,0
+L046, Centro,735,30,1
+L047,Zaragoza,766,,0
+L048,El Prado,362,297,0
+L049,El Prado,473,21,1
+L050,centro,652,149,0
+L051,El Prado,189,138,0
+L052,Santa Ana,1072,134,1
+L053,Santa Ana,252,181,0
+L054,El Prado,886,226,0
+L055,Guadalupe,551,278,0
+L056,Centro,994,238,1
+L057,Guadalupe,595,155,0
+L058,Zaragoza,775,,1
+L059,Santa Ana,745,228,0
+L060,Zaragoza,431000.0,242,0
+L061,Guadalupe,857,271,0
+L062,santa ana,716,250,0
+L063,Centro,295,158,0
+L064,El Prado,225,184,0
+L065,Centro,278,193,0
+L066,Santa Ana,424,135,0
+L067,Guadalupe,646,230,0
+L068,Santa Ana,609,169,0
+L069,Guadalupe,585,139,1
+L070,Centro,237,,1
+L071,Santa Ana,1197,200,1
+L072,El Prado,628,87,1
+L073,El Prado,580,35,1
+L074,Zaragoza,150,178,0
+L075,Zaragoza,741,288,0
+L076,Santa Ana,837,204,1
+L077,El Prado,335,244,0
+L078,Centro,282,55,1
+L079,Zaragoza,591,263,0
+L080,Centro,1142,222,1
+TOTAL,,482750,12622.0,
