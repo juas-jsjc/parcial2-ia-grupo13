@@ -1,0 +1,82 @@
+local_id,sector,consumo_kwh_mes,area_m2,consumo_ineficiente
+L001,Zaragoza,224.0,190.0,0.0
+L002,Guadalupe,308.0,133.0,0.0
+L003,Santa Ana,302.0,163.0,0.0
+L004,El Prado,791.0,187.0,0.0
+L005,Guadalupe,633.0,125.0,1.0
+L006,Zaragoza,1199.0,136.0,1.0
+L007,Guadalupe,672.0,85.0,0.0
+L008,Centro,329.0,214.0,0.0
+L009,Zaragoza,197.0,133.0,0.0
+L010,Santa Ana,895.0,150.0,1.0
+L011,Centro,663.0,157.0,1.0
+L012,El Prado,795.0,194.0,0.0
+L013,Guadalupe,452.0,208.0,0.0
+L014,Centro,306.0,83.0,0.0
+L015,El Prado,443.0,94.0,1.0
+L016,Santa Ana,912.0,64.0,1.0
+L017,El Prado,1013.0,282.0,0.0
+L018,Centro,989.0,139.0,1.0
+L019,Guadalupe,369.0,238.0,0.0
+L020,Centro,1104.0,254.0,0.0
+L021,Santa Ana,1049.0,222.0,1.0
+L022,Zaragoza,343.0,21.0,1.0
+L023,Santa Ana,1181.0,224.0,1.0
+L024,Zaragoza,947.0,198.0,1.0
+L025,Zaragoza,366.0,174.0,0.0
+L026,Santa Ana,247.0,248.0,0.0
+L027,Zaragoza,665.0,75.0,1.0
+L028,Zaragoza,828.0,169.0,0.0
+L029,El Prado,677.0,172.0,1.0
+L030,GUADALUPE,1181.0,71.0,1.0
+L031,ZARAGOZA,910.0,52.0,1.0
+L032,El Prado,318.0,133.0,0.0
+L033,Centro,1001.0,250.0,1.0
+L034,Santa Ana,812.0,64.0,1.0
+L035,Zaragoza,540.0,189.0,0.0
+L036,Guadalupe,1200.0,184.0,1.0
+L037,El Prado,1011.0,46.0,1.0
+L038,Zaragoza,1185.0,102.0,1.0
+L039,Guadalupe,1173.0,103.0,1.0
+L040,Santa Ana ,502.0,123.0,0.0
+L041,El Prado,295.0,198.0,0.0
+L042,Santa Ana,476.0,120.0,0.0
+L043,Santa Ana,288.0,104.0,0.0
+L044,El Prado,576.0,37.0,1.0
+L045,Zaragoza,981.0,292.0,0.0
+L046, Centro,735.0,30.0,1.0
+L047,Zaragoza,766.0,170.5,0.0
+L048,El Prado,362.0,297.0,0.0
+L049,El Prado,473.0,21.0,1.0
+L050,centro,652.0,149.0,0.0
+L051,El Prado,189.0,138.0,0.0
+L052,Santa Ana,1072.0,134.0,1.0
+L053,Santa Ana,252.0,181.0,0.0
+L054,El Prado,886.0,226.0,0.0
+L055,Guadalupe,551.0,278.0,0.0
+L056,Centro,994.0,238.0,1.0
+L057,Guadalupe,595.0,155.0,0.0
+L058,Zaragoza,775.0,170.5,1.0
+L059,Santa Ana,745.0,228.0,0.0
+L060,Zaragoza,431000.0,242.0,0.0
+L061,Guadalupe,857.0,271.0,0.0
+L062,santa ana,716.0,250.0,0.0
+L063,Centro,295.0,158.0,0.0
+L064,El Prado,225.0,184.0,0.0
+L065,Centro,278.0,193.0,0.0
+L066,Santa Ana,424.0,135.0,0.0
+L067,Guadalupe,646.0,230.0,0.0
+L068,Santa Ana,609.0,169.0,0.0
+L069,Guadalupe,585.0,139.0,1.0
+L070,Centro,237.0,170.5,1.0
+L071,Santa Ana,1197.0,200.0,1.0
+L072,El Prado,628.0,87.0,1.0
+L073,El Prado,580.0,35.0,1.0
+L074,Zaragoza,150.0,178.0,0.0
+L075,Zaragoza,741.0,288.0,0.0
+L076,Santa Ana,837.0,204.0,1.0
+L077,El Prado,335.0,244.0,0.0
+L078,Centro,282.0,55.0,1.0
+L079,Zaragoza,591.0,263.0,0.0
+L080,Centro,1142.0,222.0,1.0
+TOTAL,,482750.0,12622.0,
