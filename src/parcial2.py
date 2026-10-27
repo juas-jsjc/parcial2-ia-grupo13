@@ -38,7 +38,7 @@ def limpiar_datos(df):
             df_limpio[col] = df_limpio[col].fillna(mediana_val)
             print(f"Valores nulos en '{col}' imputados con la mediana: {mediana_val}")
 
-    # 3. Limpieza de texto o conversión a numérico por si hay celdas mal formateadas
+    #Limpieza de texto o conversión a numérico por si hay celdas mal formateadas
     for col in ['consumo_kwh_mes', 'area_m2']:
         if df_limpio[col].dtype == 'object':
             df_limpio[col] = df_limpio[col].astype(str).str.replace(',', '.').str.extract(r'([0-9]+\.?[0-9]*)')[0]
@@ -51,7 +51,7 @@ def limpiar_datos(df):
     print("\nDistribución de clases objetivo ('consumo_ineficiente') final:")
     print(df_limpio['consumo_ineficiente'].value_counts())
 
-    # Guardar en data/grupo_13_limpio.csv (Ajusta el número de tu grupo si es necesario)
+    #Guardar en data/grupo_13_limpio.csv
     if not os.path.exists('data'):
         os.makedirs('data')
     ruta_salida = 'data/grupo_13_limpio.csv'
@@ -62,9 +62,6 @@ def limpiar_datos(df):
 
 def visualizar_datos(df):
     """Tarea 4: Genera y guarda los gráficos con Seaborn."""
-    print("\n" + "+" + "="*60 + "+")
-    print(" TAREA 4: VISUALIZACIÓN CON SEABORN")
-    print("+" + "="*60 + "+")
     
     if not os.path.exists('data'):
         os.makedirs('data')
@@ -114,7 +111,6 @@ def sigmoide(z):
     return 1 / (1 + np.exp(-z))
 
 def entrenar_perceptron(X, y, epochs=300, lr=0.1):
-    """Tarea 5: Entrena un perceptrón con NumPy usando descenso del gradiente."""
     print("\n" + "+" + "="*60 + "+")
     print(" TAREA 5: PERCEPTRÓN DESDE CERO CON NUMPY")
     print("+" + "="*60 + "+")
@@ -201,24 +197,19 @@ def generar_frontera_decision(X_original, y, w, b, media_x, desv_x):
     print("Gráficos 'curva_aprendizaje.png' y 'frontera_decision.png' generados con éxito.")
 
 def main():
-    archivo_csv = 'grupo_13.csv' # Asegúrate de que tu archivo esté en la ruta correcta
+    archivo_csv = 'grupo_13.csv'
     
-    # 1. Cargar e inspeccionar datos (Tarea 2)
     df = cargar_datos(archivo_csv)
     if df is None:
         return
 
-    # 2. Limpiar datos y guardar (Tarea 3)
     df_limpio = limpiar_datos(df)
 
-    # 3. Visualizar datos con Seaborn (Tarea 4)
     visualizar_datos(df_limpio)
 
-    # 4. Preparar datos para el Perceptrón (Tarea 5)
     X_raw = df_limpio[['consumo_kwh_mes', 'area_m2']].values
     y = df_limpio['consumo_ineficiente'].values
 
-    # Estandarización de X (media 0 y desviación 1 por columna)
     media_x = np.mean(X_raw, axis=0)
     desv_x = np.std(X_raw, axis=0)
     desv_x[desv_x == 0] = 1.0  # Evitar división por cero
@@ -230,8 +221,6 @@ def main():
 
     # Generar gráfico de frontera de decisión
     generar_frontera_decision(X_raw, y, w, b, media_x, desv_x)
-    
-    print("\nProceso del Parcial 2 completado con éxito.")
 
 if __name__ == '__main__':
     main()
